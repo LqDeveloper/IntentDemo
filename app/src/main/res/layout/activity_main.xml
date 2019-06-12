@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/componentName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#0f0"
+            android:gravity="center"
+            android:text="ComponentName跳转"
+            android:textColor="#f00"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/intent"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#0f0"
+            android:gravity="center"
+            android:text="Intent跳转"
+            android:textColor="#f00"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/action"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#0f0"
+            android:gravity="center"
+            android:text="Intent Acction 跳转"
+            android:textColor="#f00"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/actionAndCategory"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#0f0"
+            android:gravity="center"
+            android:text="Intent Acction 和 Category 跳转"
+            android:textColor="#f00"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pickView"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#0f0"
+            android:gravity="center"
+            android:text="调用系统通讯录"
+            android:textColor="#f00"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/actionView"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#0f0"
+            android:gravity="center"
+            android:text="打开小弹窗"
+            android:textColor="#f00"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/backHome"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#0f0"
+            android:gravity="center"
+            android:text="返回Home桌面"
+            android:textColor="#f00"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/actionViewWebView"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#0f0"
+            android:gravity="center"
+            android:text="打开浏览器"
+            android:textColor="#f00"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/editPhoneNumner"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#0f0"
+            android:gravity="center"
+            android:text="编辑联系人"
+            android:textColor="#f00"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/callPhoneNumner"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#0f0"
+            android:gravity="center"
+            android:text="打电话"
+            android:textColor="#f00"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</ScrollView>
